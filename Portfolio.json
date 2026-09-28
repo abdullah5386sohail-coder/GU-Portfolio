@@ -1,0 +1,100 @@
+{
+  "basics": {
+    "name": "Abdullah Sohail",
+    "shortName": "ABS",
+    "label": "BSCS Student",
+    "headline": "I study full-time and am trying to become a complete Software Engineer.",
+    "summary": "Software Engineering Student based in Karachi, Pakistan.",
+    "location": {
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "region": "Karachi"
+    },
+    "email": "abdullah5386sohail@gmail.com",
+    "availability": "Currently part of GU Tech since April 2026",
+    "leadershipNote": "A team player and a born leader, my sense of responsibility is acknowledged by my professors.",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "AbdullahSohail",
+        "url": "https://www.linkedin.com/in/abdullah-sohail-4b61a443b/",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      {
+        "network": "GitHub",
+        "username": "abdullah5386sohail",
+        "url": "https://github.com/abdullah5386sohail",
+        "icon": "fa-brands fa-github"
+      }
+    ]
+  },
+  "about": {
+    "intro": [
+      "My Matric and Intermediate background is in Computer Science, where I learned C for my Matric, C++ for my Intermediate, and I've also learned Python independently."
+    ],
+    "strengths": [
+      "Core programming logic and concepts like OOP"
+    ]
+  },
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "C",
+        "Python",
+        "C++"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "IELTS",
+      "issuer": "British Council",
+      "url": "https://www.britishcouncil.pk/exam/ielts/dates-locations?utm_source=google&utm_medium=cpc&utm_campaign=exams-all-ielts-sa-pk-Brand-google&utm_content=brand&utm_term=ad4&gad_source=1&gad_campaignid=21512857604&gbraid=0AAAAA9ln6DQrPUEO6EetwVuyJ5tkqUmOb&gclid=Cj0KCQjw8c3VBhCsARIsAA_xJ93TAJ0gxJU8-CY3lDsfbrojglaXXyivTo2WiCp2UB390T9tcRvxEWQaArG9EALw_wcB"
+    },
+    {
+      "name": "Continental Chef",
+      "issuer": "Pakistan Institute of Tourism & Hotel Management (PITHM)",
+      "url": "https://www.pithm.edu.pk/"
+    }
+  ],
+  "education": [
+      {
+      "institution": "GU Tech",
+      "area": "Computer Science",
+      "studyType": "BSCS",
+      "startDate": "2026-01-01",
+      "endDate": "2030-12-01"
+    },
+     {
+      "institution": "Commecs College",
+      "area": "Computer Science",
+      "studyType": "Intermediate",
+      "detailsLabel": "Core Courses",
+      "details": [
+        "Object-Oriented Programming",
+        "Database Systems"
+      ],
+      "startDate": "2022-08-01",
+      "endDate": "2024-06-01"
+    },
+    {
+      "institution":  "Happy Home School",
+      "area": "Computer Science",
+      "studyType": "Matric",
+      "startDate": "2012-01-01",
+      "endDate": "2022-12-01"
+    }
+  
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Urdu",
+      "fluency": "Native"
+    }
+  ]
+}
