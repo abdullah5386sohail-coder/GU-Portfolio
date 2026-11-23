@@ -62,6 +62,8 @@
           <li><a href="#education" class="nav-link">Education</a></li>
           <li><a href="#certifications" class="nav-link">Certifications</a></li>
           <li><a href="#developer-hub" class="nav-link">Code Hub</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
 
@@ -722,6 +724,91 @@
       </div>
     </section>
 
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="site-container">
+        <div class="section-header reveal-init">
+          <span class="section-tag">My Work</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-description">
+            Things I have built while learning software engineering, each with a demo video, screenshot and links.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: GUTECH Internal Learning Campus -->
+          <div class="cert-card project-card reveal-init">
+            <div class="cert-top">
+              <!-- SCREENSHOT: save your screenshot as images/lms-screenshot.png -->
+              <img src="images/lms-screenshot.png"
+                   alt="Screenshot of the GUTECH Internal Learning Campus"
+                   class="project-shot" loading="lazy">
+
+              <h3 class="cert-title">GUTECH Internal Learning Campus</h3>
+              <div class="cert-issuer">React • TypeScript • Node.js • Express • Supabase</div>
+              <p class="cert-description">
+                A responsive internal learning platform (LMS) with invitation-only sign-in and student, teacher and admin roles.
+                It supports course assignment, resource uploads, assignments with grading, quizzes with server-side scoring,
+                announcements, course chat and complaint tracking. Data is secured with Supabase Auth, Postgres RLS and private storage.
+              </p>
+
+              <!-- VIDEO: replace VIDEO_ID with your YouTube video ID -->
+              <div class="project-video">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID"
+                        title="GUTECH Learning Campus demo video"
+                        allowfullscreen loading="lazy"></iframe>
+              </div>
+              <!-- Or, for a local file instead of YouTube:
+              <video class="project-video-file" controls preload="metadata" poster="images/lms-screenshot.png">
+                <source src="videos/lms-demo.mp4" type="video/mp4">
+              </video>
+              -->
+            </div>
+
+            <div class="cert-footer project-links">
+              <a href="https://gutech-learning-campus.netlify.app/" target="_blank" rel="noopener noreferrer" class="cert-link-btn">
+                <span>Live Demo</span>
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              </a>
+              <a href="https://github.com/abdullah5386sohail-coder/GU-TECH-WEBSITE-1" target="_blank" rel="noopener noreferrer" class="cert-link-btn">
+                <span>Source Code</span>
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- To add another project, copy the whole <div class="cert-card project-card"> block above -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section resume-section">
+      <div class="site-container">
+        <div class="section-header reveal-init">
+          <span class="section-tag">Resume</span>
+          <h2 class="section-title">My Resume</h2>
+          <p class="section-description">
+            View it below or download the PDF.
+          </p>
+          <div class="dev-hub-actions" style="margin-top: 20px;">
+            <a href="resume.pdf" download class="btn btn-primary">
+              <i class="fa-solid fa-download" aria-hidden="true"></i>
+              <span>Download Resume</span>
+            </a>
+            <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i class="fa-solid fa-eye" aria-hidden="true"></i>
+              <span>Open in New Tab</span>
+            </a>
+          </div>
+        </div>
+
+        <iframe src="resume.pdf" class="resume-frame reveal-init" title="Abdullah Sohail Resume"></iframe>
+      </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="section contact-section">
       <div class="site-container">
@@ -866,6 +953,8 @@
           <li><a href="#education">Education</a></li>
           <li><a href="#certifications">Certifications</a></li>
           <li><a href="#developer-hub">Code Hub</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>

@@ -87,6 +87,15 @@
     }
   
   ],
+  "projects": [
+    {
+      "name": "GUTECH Internal Learning Campus",
+      "description": "Responsive internal learning platform (LMS) with invitation-only sign-in and student, teacher and admin roles.",
+      "tech": ["React", "TypeScript", "Node.js", "Express", "Supabase"],
+      "repo": "https://github.com/abdullah5386sohail-coder/GU-TECH-WEBSITE-1",
+      "url": "https://gutech-learning-campus.netlify.app/"
+    }
+  ],
   "languages": [
     {
       "language": "English",
